@@ -1,16 +1,37 @@
-# detector_de_movimento
+# MoveDetector #
 
-A new Flutter project.
+Um projeto de DSDM que tem como objetivo criar um aplicativo Flutter para detectar movimentos em tempo real usando a câmera do dispositivo.
 
-## Getting Started
+## Objetivo do Projeto ##
 
-This project is a starting point for a Flutter application.
+- Detecção de movimento: Utiliza a câmera do dispositivo para detectar movimentos em tempo real.
+- Alerta em tempo real: Notificação para o usuário assim que o movimento for detectado.
+- Feedback visual: Exibição de um gráfico ou animação informando o nível de movimento detectado.
 
-A few resources to get you started if this is your first Flutter project:
+## Como Executar o Projeto ##
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Pré-requisitos ###
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter: Instale o Flutter em seu ambiente de desenvolvimento. Para isso, siga a documentação oficial: Flutter Installation
+
+- Emulador ou dispositivo físico: A detecção de movimento requer o uso da câmera do dispositivo. Você pode testar no emulador, mas um dispositivo físico é recomendado para uma experiência realista.
+
+### Passos ###
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/move-detector.git
+```
+
+2. Instale as dependências:
+
+```bash
+flutter pub get
+```
+
+3. Inicie o projeto:
+
+```bash
+flutter run
+```
